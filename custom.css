@@ -1,0 +1,268 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header_section {
+    background-image: url(https://themewagon.github.io/Romyk/images/banner-bg.png);
+
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    max-width: 20%;
+}
+
+.home {
+    color: #FC95C4;
+}
+
+.hover-item:hover,
+.number:hover {
+    color: #FC95C4;
+}
+
+.btn {
+    background-color: #FC95C4;
+}
+
+.order:hover {
+    color: black;
+    background-color: white;
+}
+
+@media (max-width: 576px) {
+
+    .hero,
+    .main-footer,
+    .list {
+        flex-direction: column;
+    }
+
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .textarea {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .client {
+        width: 18%
+    }
+
+    .cookies {
+        padding: 0%;
+        width: 90%;
+    }
+
+    .send-btn {
+        margin-left: 30px;
+    }
+
+    .contact {
+        padding-left: 25px;
+    }
+    .read-middle,.see{
+                margin-left: -55px;
+    }
+    .testimonial-text{
+        height: 50%;
+    }
+    .testimonial-text p{
+        font-size: 15px;
+    }
+}
+
+.read:hover,
+.see:hover {
+    color: white;
+    background-color: black;
+}
+
+.one {
+    width: 80px;
+    height: 6px;
+    background-color: #f5809f;
+    border-color: transparent;
+}
+
+.frature-image {
+    background-color: #F1F1F0;
+    box-shadow: 0px 0px 5px 5px #ededec;
+}
+
+.first {
+    height: 200px;
+    left: 70px;
+}
+
+.doller {
+    top: 30px;
+    width: 50px;
+    position: relative;
+    left: 40%;
+}
+
+.addto {
+    border-color: #FC95C4;
+    color: #FC95C4;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 0px 70px;
+}
+
+.frature-image:hover {
+    background-color: #FAF0C6;
+}
+
+.row1 {
+    background-image: url(https://themewagon.github.io/Romyk/images/img-6.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 135px;
+}
+
+.row2 {
+    background-image: url(https://themewagon.github.io/Romyk/images/img-6.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 135px;
+}
+
+.see,
+.read-middle {
+    left: 46%;
+}
+
+.cookies {
+    border-color: #FC95C4;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.testimonial-text {
+    box-shadow: 0px 0px 20px 10px #ededec;
+    width: 70%;
+    left: 15%;
+}
+
+.client {
+    left: 43%;
+    top: -31px;
+}
+
+.carousel-item {
+    position: relative;
+    transition: transform .6s ease-in-out;
+}
+
+.section4 .fa {
+    text-align: center;
+    background-color: #FC95C4;
+    color: white;
+    padding: 15px 20px;
+    font-size: 25px;
+    border: none;
+}
+
+.carousel-control-next {
+    left: 83%;
+    width: 5%;
+    height: 12%;
+    top: 35%;
+}
+
+.carousel-control-prev {
+    left: 12%;
+    width: 5%;
+    height: 12%;
+    top: 35%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    color: #fff;
+    background-color: #f5809f;
+}
+
+.section4 .ticon .fa:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    background-color: #262526;
+}
+
+h5 {
+    border-bottom: 1px solid #ffffff;
+    font-size: 40px;
+    text-align: left;
+    width: 220px;
+    padding-bottom: 10px;
+}
+
+.us {
+    border-bottom: 1px solid #6d6d6d;
+}
+
+.send {
+    background-color: #FC95C4;
+    color: white;
+}
+
+.send:hover {
+    background-color: #ededec;
+    color: black;
+}
+
+.footer .info .fa-solid {
+    font-size: 25px;
+    padding: 5px 5px;
+}
+
+.fa-location-dot {
+    color: #FC95C4;
+}
+
+.footer .info .fa-phone .fa-envelope {
+    color: white;
+}
+
+.fa-phone:hover .fa-envelope:hover {
+    color: #FC95C4;
+}
+
+.pin {
+    background-color: white;
+    color: black;
+}
+
+.pin:hover {
+    background-color: #FC95C4;
+    color: white;
+    border-color: #FC95C4;
+}
+
+.subscribe_bt {
+    background-color: #FC95C4;
+    color: white;
+}
+
+.copy {
+
+    background-color: #262526;
+}
+
+.copy-text {
+    padding-top: 30px;
+
+}
